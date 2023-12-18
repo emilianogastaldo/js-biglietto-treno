@@ -13,3 +13,11 @@ va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
 Buon lavoro!
+
+Scaletta:
+
+1 - Chiedo il numero di chilometri
+2 - Chiedo l'età
+3 - Calcolo il prezzo intero
+3b - Se ci sono le condizioni applico lo sconto
+4 - Scrivo il risultato
