@@ -21,3 +21,8 @@ if (userAge > 65) {
     console.log('prezzo biglietto scontato over:', priceTicket);
 }
 
+//Scrivo il risultato
+let messagePrice = document.getElementById('message');
+
+// messagePrice.innerText = 'Il prezzo del tuo biglietto è di €' + priceTicket.toFixed(2);
+messagePrice.innerHTML = `Il prezzo del tuo biglietto è di <strong> € ${priceTicket.toFixed(2)}</strong>`;
