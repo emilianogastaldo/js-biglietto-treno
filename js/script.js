@@ -11,3 +11,13 @@ console.log('età:', userAge);
 let priceTicket = kmTrip * 0.21;
 console.log('prezzo biglietto:', priceTicket);
 
+//Applico possibili sconti
+if (userAge < 18) {
+    priceTicket -= priceTicket * 20 / 100;
+    console.log('prezzo biglietto scontato minorenne:', priceTicket);
+}
+if (userAge > 65) {
+    priceTicket -= priceTicket * 40 / 100;
+    console.log('prezzo biglietto scontato over:', priceTicket);
+}
+
