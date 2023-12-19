@@ -15,8 +15,7 @@ console.log('prezzo biglietto:', priceTicket);
 if (userAge < 18) {
     priceTicket -= priceTicket * 20 / 100;
     console.log('prezzo biglietto scontato minorenne:', priceTicket);
-}
-if (userAge > 65) {
+} else if (userAge > 65) {
     priceTicket -= priceTicket * 40 / 100;
     console.log('prezzo biglietto scontato over:', priceTicket);
 }
